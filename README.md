@@ -1,14 +1,25 @@
 # emissions_tracking
 
-This repo serves as a demo of how we track emissions within the AI Lab
+This repo serves as a demo of how we track emissions within the AI Lab of the municipality of Amsterdam.
+
 
 ## Background
+
+As the AI Lab we would like to be able to track the climate impact (CI) of (the modelling part of) our projects. 
+This is because development and usage of AI models can cause significant environmental impact.
+The goal of tracking is to facilitate:
+
+- Awareness
+    - We want to create awareness, for ourselves and for users, what the environmental impact of the AI model is
+- Reduction
+    - Identifying what the relative impact of different parts of the process is allows for focused optimization and impact reduction
+- Comparison
+    - When an AI system is proposed, insight in the environmental impact can help in (the discussion about) the benefits vs. (environmental) costs 
 
 ## Folder Structure
 
 * [`notebooks`](./notebooks): Jupyter notebooks / tutorials
 * [`src`](./src): All sourcecode files specific to this project
-* ...
 
 ## Installation 
 
