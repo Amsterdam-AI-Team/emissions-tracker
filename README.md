@@ -6,13 +6,8 @@ This repo serves as a demo of how we track emissions within the AI Lab
 
 ## Folder Structure
 
-* [`data`](./data): Sample data for demo purposes
-* [`docs`](./docs): If main [README.md](./README.md) is not enough
 * [`notebooks`](./notebooks): Jupyter notebooks / tutorials
-* [`res`](./res): Relevant resources, e.g. [`images`](./res/images/) for the documentation
-* [`scripts`](./scripts): Scripts for automating tasks
 * [`src`](./src): All sourcecode files specific to this project
-* [`tests`](./tests) Unit tests
 * ...
 
 ## Installation 
@@ -36,7 +31,7 @@ pip install -r requirements.txt
 
 
 
-The code has been tested with Python x.x on Linux/MacOS/Windows. 
+The code has been tested with Python 3.11 Windows. 
 
 ## Usage
 
