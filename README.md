@@ -1,6 +1,9 @@
 # emissions_tracking
 
-This repo serves as a demo of how we track emissions within the AI Lab of the municipality of Amsterdam.
+This repo serves as a demo/guide of how we track emissions within the AI Lab of the municipality of Amsterdam.
+This method aims at tracking the power usage of resources during code runtime.
+
+**Note:** If for any reason it is not possible to track usage during runtime, a good alternative might be [Green Algorithms](https://calculator.green-algorithms.org/). This is an online tool where you can calculate your emissions by manually inputting your resources and runtime.
 
 
 ## Background
