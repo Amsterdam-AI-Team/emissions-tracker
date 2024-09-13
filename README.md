@@ -1,4 +1,4 @@
-# emissions_tracking
+# emissions_tracker
 
 This repo serves as a demo/guide of how we track emissions within the AI Lab of the municipality of Amsterdam.
 This method aims at tracking the power usage of resources during code runtime.
