@@ -59,15 +59,11 @@ More specifically it does it as following:
 
 ### Calculate the Carbon Intensity of the local energy grid
 
-Carbon intensity is calculated as weighted average of emissions from different energy sources used to generate electricity.
+Carbon intensity is calculated as weighted average of emissions from different energy sources used to generate electricity. Codecarbon attempts to retrieve carbon intensity based on location.
 
-Codecarbon attempts to retrieve carbon intensity based on location.
-
-When available, CodeCarbon uses global carbon intensity of electricity per cloud provider or per country.
-
-When it doesn’t have the carbon intensity, but has the energy mix, it computes the carbon intensity
-
-If it has neither, it uses a world average of `475 gCO2.eq/kWh `
+1. When available, CodeCarbon uses global carbon intensity of electricity per cloud provider or per country.
+2. When it doesn’t have the carbon intensity, but has the energy mix, it computes the carbon intensity
+3. If it has neither, it uses a world average of `475 gCO2.eq/kWh `
 
 ![image](https://github.com/user-attachments/assets/4ab51280-a6b5-4849-b333-45e0bc5c9a4f)
 
